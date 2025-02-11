@@ -17,7 +17,7 @@ useGLTF.preload('https://assets.vercel.com/image/upload/contentful/image/e5382hc
 useTexture.preload('https://i.ibb.co.com/mFBdhLs/tali-2.png')
 useTexture.preload('https://i.ibb.co.com/mT55tXk/11w-1.png')
 
-export default function App() {
+export default function JSXAPP() {
   // const { debug } = useControls({ debug: false })
   const [state, handleSubmit] = useForm('mqakkpvz');
   if (state.succeeded) {
