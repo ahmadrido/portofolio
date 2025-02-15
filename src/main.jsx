@@ -11,6 +11,10 @@ const route = createBrowserRouter([
     element: <AllPages />,
   },
   {
+    path: '/#',
+    element: <AllPages />,
+  },
+  {
     path: '/myProjects',
     element: <AllProjects />,
   }
