@@ -37,7 +37,7 @@ const AllProjects = () => {
           {filteredProjects.map((project) => (
             <div 
               key={project.id}
-              className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="bg-white rounded-lg overflow-hidden shadow-md h-min hover:shadow-lg transition-shadow duration-300"
             >
               <img
                 src={project.image}

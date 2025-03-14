@@ -51,7 +51,7 @@ const Navigations = () => {
           <li className="order-first md:order-none">
             <RainbowButton>
               <CoolMode>
-                <a href="#"><i className='fa-solid fa-home'></i></a>
+                <a href="#home"><i className='fa-solid fa-home'></i></a>
               </CoolMode>   
             </RainbowButton>
           </li>
@@ -101,7 +101,7 @@ function Apps() {
       {/* nav */}
       <Navigations />
 
-      <main className="site-main">
+      <main className="site-main" id="home">
       <div className="rotating-viewport">
       <div className="  ">
       <img
@@ -229,65 +229,39 @@ function Apps() {
             <ProjectPreview />
           </div>
 
-          <div id="extralarge-modal-projects" data-modal-backdrop="static" tabIndex={-1} aria-hidden="true" className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-    <div className="relative w-full max-w-7xl max-h-full">
-        
-        <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
-            <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                <h3 className="text-xl font-medium text-gray-900 dark:text-white">
-                    Here is my last projects
-                </h3>
-                <button type="button" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="extralarge-modal-projects">
-                    <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                    </svg>
-                    <span className="sr-only">Close modal</span>
-                </button>
-            </div>
-            <div className="p-4 text-black text-center flex items-center justify-center">
-                <img src="https://img.freepik.com/free-vector/coming-soon-design_1132-70.jpg?t=st=1733971238~exp=1733974838~hmac=d41e055a51f5bed22e18113b650c7c35079fbccc737a17232f2ef148af8d4e2c&w=740" width={"30%"} alt="" />
-                
-            </div>
-            <div className="flex items-center p-4 md:p-5 space-x-3 rtl:space-x-reverse border-t border-gray-200 rounded-b dark:border-gray-600">
-                <button data-modal-hide="extralarge-modal-projects" type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
+          <div id="extralarge-modal" data-modal-backdrop="static" tabIndex={-1} aria-hidden="true" className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+              <div className="relative w-full max-w-7xl max-h-full">
+                  
+                  <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                      <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+                          <h3 className="text-xl font-medium text-gray-900 dark:text-white">
+                              Here is my all certificate
+                          </h3>
+                          <button type="button" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="extralarge-modal">
+                              <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                              </svg>
+                              <span className="sr-only">Close modal</span>
+                          </button>
+                      </div>
+                      <div className="p-4 md:p-5 space-y-4">
+                          <div className="serticate grid grid-cols-1 md:grid-cols-3 gap-4">
+                          <iframe src={bnsp} className="w-full h-64 border rounded-lg"></iframe>
+                          <iframe src={reactSerti} className="w-full h-64 border rounded-lg"></iframe>
+                          <iframe src={responsnifSerti} className="w-full h-64 border rounded-lg"></iframe>
+                          <iframe src={basic} className="w-full h-64 border rounded-lg"></iframe>
+                          <iframe src={sertiDqDa} className="w-full h-64 border rounded-lg"></iframe>
 
-<div id="extralarge-modal" data-modal-backdrop="static" tabIndex={-1} aria-hidden="true" className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-    <div className="relative w-full max-w-7xl max-h-full">
-        
-        <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
-            <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                <h3 className="text-xl font-medium text-gray-900 dark:text-white">
-                    Here is my all certificate
-                </h3>
-                <button type="button" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="extralarge-modal">
-                    <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                    </svg>
-                    <span className="sr-only">Close modal</span>
-                </button>
-            </div>
-            <div className="p-4 md:p-5 space-y-4">
-                <div className="serticate grid grid-cols-1 md:grid-cols-3 gap-4">
-                <iframe src={bnsp} className="w-full h-64 border rounded-lg"></iframe>
-                <iframe src={reactSerti} className="w-full h-64 border rounded-lg"></iframe>
-                <iframe src={responsnifSerti} className="w-full h-64 border rounded-lg"></iframe>
-                <iframe src={basic} className="w-full h-64 border rounded-lg"></iframe>
-                <iframe src={sertiDqDa} className="w-full h-64 border rounded-lg"></iframe>
-
-                </div>
-            </div>
-            <div className="flex items-center p-4 md:p-5 space-x-3 rtl:space-x-reverse border-t border-gray-200 rounded-b dark:border-gray-600">
-                <button data-modal-hide="extralarge-modal" type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
+                          </div>
+                      </div>
+                      <div className="flex items-center p-4 md:p-5 space-x-3 rtl:space-x-reverse border-t border-gray-200 rounded-b dark:border-gray-600">
+                          <button data-modal-hide="extralarge-modal" type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
 
     </>
   )

@@ -25,7 +25,7 @@ const ProjectPreview = () => {
           {previewProjects.map((project) => (
             <div 
               key={project.id}
-              className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="bg-white rounded-lg overflow-hidden h-[450px] shadow-md hover:shadow-lg transition-shadow duration-300"
             >
               <img
                 src={project.image}
@@ -34,7 +34,7 @@ const ProjectPreview = () => {
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-gray-800">{project.title}</h3>
-                <p className="text-gray-600 mb-4">{project.description}</p>
+                <p className="text-gray-600 mb-4 line-clamp-2">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (
                     <span 

@@ -1,4 +1,5 @@
 import NiatSolatku from '../assets/projects/niatSholatku.png';
+import marinaFleet from '../assets/projects/marinaFleet.png'
 
 
 const projects = [
@@ -14,16 +15,26 @@ const projects = [
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Aplikasi manajemen tugas dengan fitur drag-and-drop, reminder, dan kolaborasi tim.",
-      image: "/api/placeholder/600/400",
-      category: "mobile",
-      technologies: ["React Native", "Firebase", "Redux"],
-      liveUrl: "https://taskapp.example.com",
-      githubUrl: "https://github.com/username/taskapp",
+      title: "Marina Fleet",
+      description: "Penyedia layanan pelayaran yang menawarkan armada kapal terbaik untuk perjalanan laut yang tak terlupakan. Dari tur eksklusif hingga perjalanan wisata mewah, kami siap membawa Anda ke destinasi impian dengan pengalaman yang luar biasa.",
+      image: marinaFleet,
+      category: "web",
+      technologies: ["React", "Tailwind"],
+      liveUrl: "https://marinafleet.vercel.app",
+      githubUrl: "https://github.com/ahmadrido/marinafleet",
     },
     {
       id: 3,
+      title: "Weather Dashboard",
+      description: "Dashboard cuaca real-time dengan visualisasi data dan prediksi cuaca.",
+      image: "/api/placeholder/600/400",
+      category: "web",
+      technologies: ["React", "D3.js", "OpenWeather API"],
+      liveUrl: "https://weather.example.com",
+      githubUrl: "https://github.com/username/weather",
+    },
+    {
+      id: 4,
       title: "Weather Dashboard",
       description: "Dashboard cuaca real-time dengan visualisasi data dan prediksi cuaca.",
       image: "/api/placeholder/600/400",
