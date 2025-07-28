@@ -102,7 +102,7 @@ const CharInfo = () => {
                 <h1 className='p-3 bg-amber-600 text-center'>Find Me On</h1>
                 <div className="card-contact flex flex-col md:flex-row gap-2 p-2">
                   <ContactTo icon={<MdEmail className='text-amber-400'/>} text="ahmadridokamaludin@gmail.com" link="mailto:ahmadridokamaludin@gmail.com"/>
-                  <ContactTo icon={<MdPhoneEnabled className='text-amber-400'/>} text="+62 812-3456-7890" link="tel:+6281234567890"/>
+                  <ContactTo icon={<MdPhoneEnabled className='text-amber-400'/>} text="+6285780385205" link="tel:+6285780385205"/>
                   <ContactTo icon={<SiInstagram className='text-amber-400'/>} text="@ahmdrydn" link="https://www.instagram.com/ahmdrydn/"/>
                   <ContactTo icon={<SiTiktok className='text-amber-400'/>} text="@ahmdrydn" link="https://www.tiktok.com/@ahmdrydn"/>
                   <ContactTo icon={<SiLinkedin className='text-amber-400'/>} text="ahmadridokamaludin" link="https://www.linkedin.com/in/ahmadridokamaludin/"/>

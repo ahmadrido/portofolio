@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import certivicate from '../../assets/images/showcerti.png'
 import project from '../../assets/images/project.png'
 import { FaEye, FaGithub, FaExternalLinkAlt, FaTimes, FaPlay, FaCode } from 'react-icons/fa'
@@ -26,6 +26,7 @@ const Achievment = () => {
     const [showProjectModal, setShowProjectModal] = useState(false)
     const [selectedCertificate, setSelectedCertificate] = useState(null)
     const [selectedProject, setSelectedProject] = useState(null)
+    const  Reff = useRef(null)
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -111,10 +112,16 @@ const Achievment = () => {
 
   const handleCertificateClick = (certificate) => {
     setSelectedCertificate(certificate);
+    if (Reff.current) {
+      Reff.current.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   const handleProjectClick = (project) => {
     setSelectedProject(project);
+    if (Reff.current) {
+      Reff.current.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -190,7 +197,7 @@ const Achievment = () => {
 
           {/* Right side - Certificate details */}
           {selectedCertificate && (
-            <div className="md:w-1/2 md:pl-4 md:border-l border-white/20 animate-fade-in">
+            <div className="md:w-1/2 md:pl-4 md:border-l border-white/20 animate-fade-in" ref={Reff}>
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-xl font-bold text-white">Certificate Details</h3>
               </div>
@@ -317,7 +324,7 @@ const Achievment = () => {
 
           {/* Right side - Project details */}
           {selectedProject && (
-            <div className="md:w-1/2 md:pl-4 border-l border-white/20 animate-fade-in">
+            <div className="md:w-1/2 md:pl-4 border-l border-white/20 animate-fade-in" ref={Reff}>
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-xl font-bold text-white">Project Details</h3>
               </div>
