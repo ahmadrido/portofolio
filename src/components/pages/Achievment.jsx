@@ -40,39 +40,39 @@ const Achievment = () => {
     const projectDetails = [
       {
         id: 1,
-        title: "Pixel Adventure Game",
-        description: "An immersive 2D pixel art adventure game built with modern web technologies. Features include character progression, interactive environments, and engaging storylines.",
-        technologies: ["React", "Three.js", "WebGL", "Canvas API"],
+        title: "Marina Fleet",
+        description: "ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi quibusdam sint quos dolores voluptate similique veniam maxime iusto porro.",
+        technologies: ["React"],
         imageUrl: project,
         githubLink: "#",
-        liveLink: "#",
+        liveLink: "https://marinafleet.vercel.app/",
         status: "Completed",
-        difficulty: "Advanced",
-        features: ["Pixel Art Animation", "Sound Effects", "Save System", "Multiplayer Support"]
+        difficulty: "Basic",
+        features: ["-"]
       },
       {
         id: 2,
-        title: "Portfolio Dashboard",
-        description: "A dynamic portfolio dashboard with real-time analytics, interactive charts, and responsive design. Perfect for showcasing professional work.",
-        technologies: ["React", "D3.js", "Node.js", "MongoDB"],
+        title: "Niat Sholatku",
+        description: "ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi quibusdam sint quos dolores voluptate similique veniam maxime iusto porro.",
+        technologies: ["React"],
+        imageUrl: project,
+        githubLink: "#",
+        liveLink: "https://niatsholatku.vercel.app/",
+        status: "Completed",
+        difficulty: "Basic",
+        features: ["-"]
+      },
+      {
+        id: 3,
+        title: "SIAKAD",
+        description: "ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi quibusdam sint quos dolores voluptate similique veniam maxime iusto porro.",
+        technologies: ["React", "Express", "Node.js", "MYSQL"],
         imageUrl: project,
         githubLink: "#",
         liveLink: "#",
         status: "In Progress",
-        difficulty: "Intermediate",
-        features: ["Real-time Data", "Interactive Charts", "Dark Mode", "Mobile Responsive"]
-      },
-      {
-        id: 3,
-        title: "AI Chat Interface",
-        description: "Modern chat interface with AI integration, featuring real-time messaging, file sharing, and intelligent responses.",
-        technologies: ["Python", "FastAPI", "React", "WebSocket"],
-        imageUrl: project,
-        githubLink: "#",
-        liveLink: "#",
-        status: "Completed",
-        difficulty: "Expert",
-        features: ["AI Integration", "File Upload", "Real-time Chat", "Voice Messages"]
+        difficulty: "Advanced",
+        features: ["-"]
       }
     ];
 
@@ -80,33 +80,33 @@ const Achievment = () => {
     const certificateDetails = [
       {
         id: 1,
-        title: "Advanced Web Development Certification",
-        issuer: "Pixel Academy",
-        date: "June 2024",
+        title: "Junior Web Developer",
+        issuer: "BNSP",
+        date: "June 2027",
         imageUrl: certivicate,
-        skills: ["React", "Node.js", "MongoDB", "TypeScript"],
+        skills: ["HTML", "CSS", "Javascript", "PHP", "MYSQL"],
         credentialId: "PWD-2024-001",
-        description: "Comprehensive certification covering modern web development practices, including frontend frameworks, backend APIs, and database management."
+        description: "Professional certification in web development, covering front-end and back-end technologies."
       },
       {
         id: 2,
-        title: "Game Development Mastery",
-        issuer: "Interactive Learning Hub",
-        date: "January 2024",
+        title: "Build Web Applications with React",
+        issuer: "Dicoding",
+        date: "-",
         imageUrl: certivicate,
-        skills: ["Unity", "C#", "Game Design", "3D Modeling"],
+        skills: ["React"],
         credentialId: "GDM-2024-042",
-        description: "Specialized certification in game development fundamentals, covering game mechanics, player experience, and interactive storytelling."
+        description: "Specialized certification in web development fundamentals, covering web application architecture, state management, and API integration."
       },
       {
         id: 3,
-        title: "UI/UX Design Excellence",
-        issuer: "Design Institute",
-        date: "March 2024",
+        title: "Code Generation and Optimization Using IBM Granite",
+        issuer: "IBM",
+        date: "-",
         imageUrl: certivicate,
-        skills: ["Figma", "Adobe XD", "User Research", "Prototyping"],
+        skills: ["Code optimization", "AI integration", "Prompt engineering"],
         credentialId: "UXE-2024-128",
-        description: "Professional certification in user interface and user experience design, focusing on human-centered design principles."
+        description: "Specialized certification in code generation and optimization techniques using IBM Granite."
       }
     ];
 
