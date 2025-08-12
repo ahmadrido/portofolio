@@ -85,19 +85,19 @@ const Abilities = () => {
       title: "Programming Languages",
       icon: <FaCode className="text-3xl text-blue-500" />,
       skills: [
-        { name: "JavaScript", icon: <SiJavascript className="text-yellow-400 text-2xl" />, proficiency: 90 },
-        { name: "TypeScript", icon: <SiTypescript className="text-blue-500 text-2xl" />, proficiency: 80 },
+        { name: "JavaScript", icon: <SiJavascript className="text-yellow-400 text-2xl" />, proficiency: 70 },
+        { name: "TypeScript", icon: <SiTypescript className="text-blue-500 text-2xl" />, proficiency: 30 },
         { name: "Python", icon: <FaPython className="text-blue-600 text-2xl" />, proficiency: 30 },
-        { name: "Java", icon: <FaJava className="text-red-500 text-2xl" />, proficiency: 70 },
-        { name: "PHP", icon: <SiPhp className="text-purple-600 text-2xl" />, proficiency: 75 },
+        { name: "Java", icon: <FaJava className="text-red-500 text-2xl" />, proficiency: 30 },
+        { name: "PHP", icon: <SiPhp className="text-purple-600 text-2xl" />, proficiency: 70 },
       ]
     },
     {
       title: "Frontend Technologies",
       icon: <FaReact className="text-3xl text-cyan-400" />,
       skills: [
-        { name: "React", icon: <FaReact className="text-cyan-400 text-2xl" />, proficiency: 95 },
-        { name: "Next.js", icon: <SiNextdotjs className="text-white text-2xl" />, proficiency: 85 },
+        { name: "React", icon: <FaReact className="text-cyan-400 text-2xl" />, proficiency: 70 },
+        // { name: "Next.js", icon: <SiNextdotjs className="text-white text-2xl" />, proficiency: 50 },
         { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400 text-2xl" />, proficiency: 90 },
         { name: "HTML5", icon: <FaHtml5 className="text-orange-500 text-2xl" />, proficiency: 95 },
         { name: "CSS3", icon: <FaCss3Alt className="text-blue-500 text-2xl" />, proficiency: 90 },
@@ -108,10 +108,10 @@ const Abilities = () => {
       title: "Backend Technologies",
       icon: <FaServer className="text-3xl text-green-500" />,
       skills: [
-        { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-2xl" />, proficiency: 90 },
-        { name: "Express.js", icon: <SiExpress className="text-white text-2xl" />, proficiency: 85 },
-        { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-2xl" />, proficiency: 80 },
-        { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-500 text-2xl" />, proficiency: 75 },
+        { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-2xl" />, proficiency: 70 },
+        { name: "Express.js", icon: <SiExpress className="text-white text-2xl" />, proficiency: 55 },
+        // { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-2xl" />, proficiency: 80 },
+        // { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-500 text-2xl" />, proficiency: 75 },
         { name: "MySQL", icon: <SiMysql className="text-blue-500 text-2xl" />, proficiency: 70 }
       ]
     },
@@ -119,19 +119,19 @@ const Abilities = () => {
       title: "DevOps & Cloud",
       icon: <FaCloud className="text-3xl text-sky-500" />,
       skills: [
-        { name: "Docker", icon: <SiDocker className="text-blue-500 text-2xl" />, proficiency: 80 },
-        { name: "Kubernetes", icon: <SiKubernetes className="text-blue-500 text-2xl" />, proficiency: 70 },
-        { name: "Google Cloud", icon: <SiGooglecloud className="text-red-500 text-2xl" />, proficiency: 75 },
-        { name: "Firebase", icon: <SiFirebase className="text-yellow-500 text-2xl" />, proficiency: 85 },
+        // { name: "Docker", icon: <SiDocker className="text-blue-500 text-2xl" />, proficiency: 80 },
+        // { name: "Kubernetes", icon: <SiKubernetes className="text-blue-500 text-2xl" />, proficiency: 70 },
+        // { name: "Google Cloud", icon: <SiGooglecloud className="text-red-500 text-2xl" />, proficiency: 75 },
+        // { name: "Firebase", icon: <SiFirebase className="text-yellow-500 text-2xl" />, proficiency: 85 },
       ]
     },
     {
       title: "Tools & Version Control",
       icon: <FaTools className="text-3xl text-gray-400" />,
       skills: [
-        { name: "Git", icon: <FaGitAlt className="text-orange-500 text-2xl" />, proficiency: 90 },
-        { name: "GitHub", icon: <FaGithub className="text-gray-400 text-2xl" />, proficiency: 90 },
-        { name: "Postman", icon: <SiPostman className="text-red-500 text-2xl" />, proficiency: 85 }
+        { name: "Git", icon: <FaGitAlt className="text-orange-500 text-2xl" />, proficiency: 70 },
+        { name: "GitHub", icon: <FaGithub className="text-gray-400 text-2xl" />, proficiency: 70 },
+        { name: "Postman", icon: <SiPostman className="text-red-500 text-2xl" />, proficiency: 70 }
       ]
     }
   ];

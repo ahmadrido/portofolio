@@ -51,7 +51,7 @@ const CharInfo = () => {
                   <p className="text-pixelify">
                   
                   <VariableProximity
-                    label={'[I live in Tangerang, West Java, Indonesia. As a software developer in the novice Fullstack Developer field, I have the ability to integrate various project components coherently and efficiently. Apart from that, I have the skills to work together in a team and also have good creative power. I also have a great interest in continuing to learn about the latest technology relevant to Industry 4.0 or digitalization. I am ready to adapt and use the latest innovations to support industry and business needs.]'}
+                    label={'[I live in Tangerang, Indonesia. As a novice Fullstack Developer, I have the ability to integrate various project components coherently and efficiently. I am skilled in collaborating within a team and bringing creative solutions to development challenges. I have a strong interest in continuously learning about the latest technologies, especially in the fields of open source and artificial intelligence (AI). I am ready to adapt and leverage these innovations to create impactful solutions that support community growth and business needs.]'}
                     className={'variable-proximity-demo'}
                     fromFontVariationSettings="'wght' 200, 'opsz' 9"
                     toFontVariationSettings="'wght' 1000, 'opsz' 40"
